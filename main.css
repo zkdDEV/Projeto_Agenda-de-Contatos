@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+/*############################################################################################################*/
+
+/*Configurações Body*/
+body
+{
+    background-color: #E7E7E7;
+    margin-top: 100px;
+}
+
+/*############################################################################################################*/
+
+/*Configurações do container*/
+.container
+{
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/*Configurações do Cabeçalho*/
+header
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+header img
+{
+    height: 60px;
+}
+header h1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*############################################################################################################*/
+
+/*Configurações do formulário*/
+form
+{
+    max-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+form input
+{
+    font-size: 18px;
+    outline-color: #737373;
+    padding: 8px;
+    border: 3px solid #737373;
+    font-weight: 400;
+    margin-left: 20px;
+}
+form button
+{
+    font-size: 18px;
+    background-color: #737373;
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-left: 20px;
+}
+form button:hover
+{
+    background-color: #7373739f;
+    cursor: pointer;
+}
+
+/*############################################################################################################*/
+
+/*Configurações da tabela*/
+table
+{
+    max-width: 760px;
+    width: 100%;
+    background-color: white;
+}
+table th
+{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid #737373;
+}
+table td
+{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #737373;
+    font-weight: 400;
+}
+table td img
+{
+    height: 40px;
+}
+
+/*############################################################################################################*/
+
+/*Configurações*/
